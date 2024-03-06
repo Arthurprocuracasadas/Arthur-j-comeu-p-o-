@@ -1,41 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="projetolegal.MainPage">
+             x:Class="projetolegal.MainPage"
+             Shell.NavBarIsVisible="false">
+             
+             
+             <Grid>
+             <Image Source="capivaldo.webp"
+             Opacity="0.7"
+             Aspect="AspectFill"/>
+             
+             <Label Text="O Caso intrigante de Sir Capivaldo"
+             TextColor="Black"
+             FontSize="60"
+             FontFamily="Cardinal"
+             HorizontalOptions="Center"
+             HorizontalTextAlignment="Center"
+             VerticalOptions="Start"
+             Margin="20"/>
+             
+             <VerticalStackLayout
+              VerticalOptions="End"
+              Spacing="10"
+              Margin="15,0,15,40">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+               <Button Text="Iniciar"
+              Clicked="OnMenuStartButtonClicked"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#b2614d"
+              TextColor="White"
+              Margin="0,0,0,10"
+              FontSize="18"
+              FontFamily="CachetStdBold"/>
+      <Button Text="Preferências"
+              Clicked="OnMenuSettingsButtonClicked"
+              BorderColor="White"
+              BorderWidth="1"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#821e19"
+              TextColor="White"
+              FontSize="16"
+              FontFamily="CachetStdBold"/>
+      <Button Text="Sobre"
+              Clicked="OnMenuAboutButtonClicked"
+              BorderColor="White"
+              BorderWidth="1"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#821e19"
+              TextColor="White"
+              FontSize="16"
+              FontFamily="CachetStdBold"/>
+    </VerticalStackLayout>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
-    </ScrollView>
+             </Grid>
+    
 
 </ContentPage>
