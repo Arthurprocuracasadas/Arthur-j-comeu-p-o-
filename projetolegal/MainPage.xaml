@@ -26,35 +26,122 @@
 
                <Button Text="Iniciar"
               Clicked="OnMenuStartButtonClicked"
+              BorderColor="Gold"
+              BorderWidth="2"
               HeightRequest="50"
               CornerRadius="25"
-              BackgroundColor="#b2614d"
+              BackgroundColor="#821e19"
               TextColor="White"
               Margin="0,0,0,10"
               FontSize="18"
-              FontFamily="CachetStdBold"/>
-      <Button Text="Preferências"
+              FontFamily="Cardinal"/>
+              <Button Text="Preferências"
               Clicked="OnMenuSettingsButtonClicked"
-              BorderColor="White"
-              BorderWidth="1"
+              BorderColor="Gold"
+              BorderWidth="2"
               HeightRequest="50"
               CornerRadius="25"
               BackgroundColor="#821e19"
               TextColor="White"
               FontSize="16"
-              FontFamily="CachetStdBold"/>
+              FontFamily="Cardinal"/>
       <Button Text="Sobre"
               Clicked="OnMenuAboutButtonClicked"
-              BorderColor="White"
-              BorderWidth="1"
+              BorderColor="Gold"
+              BorderWidth="2"
               HeightRequest="50"
               CornerRadius="25"
               BackgroundColor="#821e19"
               TextColor="White"
               FontSize="16"
-              FontFamily="CachetStdBold"/>
-    </VerticalStackLayout>
+              FontFamily="Cardinal"/>
+             </VerticalStackLayout>
+               <Frame x:Name="frameSettings"
+                IsVisible="false"
+                Margin="10,20"
+                CornerRadius="20"
+                BackgroundColor="#3f343a"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill">
 
+           <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="120"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Label Text="Preferências"
+              TextColor="White"
+              Margin="20"
+              FontSize="40"
+              FontFamily="Papyrus"
+              HorizontalOptions="Center"
+              HorizontalTextAlignment="Center"
+              Grid.Row="0"/>
+
+
+        <Button Text="voltar"
+                Clicked="OnDismissSettingsButtonClicked"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#821e19"
+                TextColor="White"
+                Margin="0,0,0,10"
+                FontSize="18"
+                FontFamily="CachetStdBold"
+                Grid.Row="3"/>
+      </Grid>
+    </Frame>
+
+    
+    
+    <Frame x:Name="frameAbout"
+           IsVisible="false"
+           Margin="10,20"
+           CornerRadius="20"
+           BackgroundColor="#3f343a"
+           HorizontalOptions="Fill"
+           VerticalOptions="Fill">
+
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="90"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Label Text="Sobre"
+              TextColor="White"
+              Margin="20"
+              FontSize="40"
+              FontFamily="Papyrus"
+              HorizontalOptions="Center"
+              HorizontalTextAlignment="Center"
+              Grid.Row="0"/>
+
+        <Label Text="Jogo criado Alifer e Arthur Matheus do 3-A"
+               CharacterSpacing="1"
+               LineHeight="1.5"
+               TextColor="White"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               FontSize="20"
+               FontFamily="Cardinal"
+               Grid.Row="1"/>
+
+        <Button Text="voltar"
+                Clicked="OnDismissAboutButtonClicked"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#b2614d"
+                TextColor="White"
+                Margin="0,0,0,10"
+                FontSize="18"
+                FontFamily="CachetStdBold"
+                Grid.Row="2"/>
+      </Grid>
+    </Frame>
              </Grid>
     
 
