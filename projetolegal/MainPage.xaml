@@ -35,7 +35,7 @@
               Margin="0,0,0,10"
               FontSize="18"
               FontFamily="Cardinal"/>
-              <Button Text="Preferências"
+              <Button Text="Dicas"
               Clicked="OnMenuSettingsButtonClicked"
               BorderColor="Gold"
               BorderWidth="2"
@@ -79,8 +79,19 @@
               HorizontalOptions="Center"
               HorizontalTextAlignment="Center"
               Grid.Row="0"/>
-
-
+        
+         <Label Text="-Seja Educado&#x0a;-Escolha o mais sensato"
+               CharacterSpacing="1"
+               LineHeight="1.5"
+               Margin="0,0,100,0"
+               TextColor="White"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Start"
+               VerticalOptions="Center"
+               FontSize="20"
+               FontFamily="Cardinal"
+               Grid.Row="1"/>
+     
         <Button Text="voltar"
                 Clicked="OnDismissSettingsButtonClicked"
                 HeightRequest="50"
