@@ -80,7 +80,7 @@
               HorizontalTextAlignment="Center"
               Grid.Row="0"/>
         
-         <Label Text="-Seja Educado&#x0a;-Escolha o mais sensato"
+         <Label Text="●Seja Educado&#x0a; ●Escolha o mais sensato&#x0a;●Não entre em seu quarto sem permissão"
                CharacterSpacing="1"
                LineHeight="1.5"
                Margin="0,0,100,0"

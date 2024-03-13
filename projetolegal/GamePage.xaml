@@ -4,4 +4,41 @@
              x:Class="projetolegal.GamePage"
              BackgroundColor="Black"
              Shell.NavBarIsVisible="false">
+             
+             <Grid>
+               <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+              </Grid.RowDefinitions>
+
+              <Frame
+               CornerRadius="20"
+               Margin="5,5"
+               VerticalOptions="Fill"
+                Grid.Row="0">
+                <Grid>
+                <Image Source="casaabandonada.jpg"
+                 Opacity="0.7"
+                 Aspect="AspectFill"/>
+                  <Label x:Name="labelTexto"
+                    TextColor="White"
+                    LineHeight="1.2"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    VerticalOptions="Center"
+                    FontSize="20"
+                    FontFamily="Marlakey"/>
+                    </Grid>
+                </Frame>
+             </Grid>
+
+             
+             
+             
+             
+             
              </ContentPage>
+             

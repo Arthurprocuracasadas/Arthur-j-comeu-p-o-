@@ -4,8 +4,8 @@ public partial class GamePage : ContentPage
 {
   //------------------------------------------------------------------------------------------------
 
-  //List<HistoryStep> historia = new List<HistoryStep>();
-  //HistoryStep HistoryStepAtual;
+  List<HistoryStep> historia = new List<HistoryStep>();
+  HistoryStep HistoryStepAtual;
 
   //------------------------------------------------------------------------------------------------
 
@@ -13,7 +13,12 @@ public partial class GamePage : ContentPage
 	{
 		InitializeComponent();
 
-    //historia.Add(new HistoryStep()
-    
+    historia.Add(new HistoryStep()
+    {
+      Id = 0,
+      Texto = "oi tudo bom",
+      TemResposta=false
+    });
+  
     }
 }
