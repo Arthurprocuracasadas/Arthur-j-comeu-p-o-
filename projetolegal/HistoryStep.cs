@@ -1,4 +1,4 @@
-public class HistoryStep
+public class HistoriaStep
 {
   public int Id; 
   public string? Texto; 

@@ -24,15 +24,29 @@
                  Opacity="0.7"
                  Aspect="AspectFill"/>
                   <Label x:Name="labelTexto"
-                    TextColor="White"
+                    TextColor="Black"
                     LineHeight="1.2"
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     VerticalOptions="Center"
-                    FontSize="20"
+                    FontSize="30"
                     FontFamily="Marlakey"/>
                     </Grid>
                 </Frame>
+                <Button x:Name="proximo"
+                Clicked="ProximoClicked"
+                 Text="próximo"
+                 BackgroundColor="#821e19"
+                 BorderWidth="1"
+                 BorderColor="Gold"
+                  Margin="20,0"
+                  TextColor="White"
+                  FontSize="16"
+                  HeightRequest="50"
+                  CornerRadius="25"
+                  HorizontalOptions="Fill"
+                  FontFamily="Marlakey"
+                  Grid.Row="1"/>
              </Grid>
 
              
