@@ -115,12 +115,12 @@
                        HorizontalTextAlignment="Center"
                        VerticalOptions="Center"/>
                       <Button Text="tentar de novo"
-                       Clicked="OnGameOverButtonClicked"
-                       BackgroundColor="#e1cdb4"
+                       Clicked="Tryagain"
+                       BackgroundColor="#801208"
                        TextColor="Black"
                        HeightRequest="50"
-                       CornerRadius="10"
-                       FontSize="16"
+                       CornerRadius="20"
+                       FontSize="20"
                        HorizontalOptions="Fill"
                        FontFamily="Marlakey"/>
                       </VerticalStackLayout>

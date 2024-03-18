@@ -46,7 +46,7 @@ public partial class GamePage : ContentPage
     });
     historia.Add(new HistoriaStep()
     {
-      Id = 3000,
+      Id = 3001,
       Texto = "você caminha por algum tempo e acaba morrendo de fome",
       TemResposta=false,
       vcmorreu=true
