@@ -98,15 +98,9 @@
                       Margin="10,0,10,10"
                       Grid.Row="1"
                       Grid.RowSpan="4">
-                      <Frame x:Name="frameGameOver"
-                        IsVisible="false"
-                        BorderColor="#801208"
-                        BackgroundColor="#801208"
-                        Margin="10,0,10,10"
-                        Grid.Row="1"
-                        Grid.RowSpan="4">
                       <VerticalStackLayout>
                       <Label Text="Você Morreu"
+                       BackgroundColor="Black"
                        TextColor="Gold"
                        Margin="20"
                        FontSize="40"
@@ -117,13 +111,14 @@
                       <Button Text="tentar de novo"
                        Clicked="Tryagain"
                        BackgroundColor="#801208"
-                       TextColor="Black"
+                       TextColor="Gold"
                        HeightRequest="50"
                        CornerRadius="20"
                        FontSize="20"
                        HorizontalOptions="Fill"
                        FontFamily="Marlakey"/>
                       </VerticalStackLayout>
+
                       </Frame>
                     
              </Grid>

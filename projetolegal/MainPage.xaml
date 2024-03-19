@@ -31,7 +31,7 @@
               HeightRequest="50"
               CornerRadius="25"
               BackgroundColor="#821e19"
-              TextColor="White"
+              TextColor="Gold"
               Margin="0,0,0,10"
               FontSize="18"
               FontFamily="Cardinal"/>
@@ -42,7 +42,7 @@
               HeightRequest="50"
               CornerRadius="25"
               BackgroundColor="#821e19"
-              TextColor="White"
+              TextColor="Gold"
               FontSize="16"
               FontFamily="Cardinal"/>
       <Button Text="Sobre"
@@ -52,7 +52,7 @@
               HeightRequest="50"
               CornerRadius="25"
               BackgroundColor="#821e19"
-              TextColor="White"
+              TextColor="Gold"
               FontSize="16"
               FontFamily="Cardinal"/>
              </VerticalStackLayout>
@@ -72,10 +72,10 @@
           <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
         <Label Text="Preferências"
-              TextColor="White"
+              TextColor="Gold"
               Margin="20"
               FontSize="40"
-              FontFamily="Papyrus"
+              FontFamily="Cardinal"
               HorizontalOptions="Center"
               HorizontalTextAlignment="Center"
               Grid.Row="0"/>
@@ -84,7 +84,7 @@
                CharacterSpacing="1"
                LineHeight="1.5"
                Margin="0,0,100,0"
-               TextColor="White"
+               TextColor="Gold"
                HorizontalOptions="Center"
                HorizontalTextAlignment="Start"
                VerticalOptions="Center"
@@ -97,10 +97,10 @@
                 HeightRequest="50"
                 CornerRadius="25"
                 BackgroundColor="#821e19"
-                TextColor="White"
+                TextColor="Gold"
                 Margin="0,0,0,10"
                 FontSize="18"
-                FontFamily="CachetStdBold"
+                FontFamily="Cardinal"
                 Grid.Row="3"/>
       </Grid>
     </Frame>
@@ -122,10 +122,10 @@
           <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
         <Label Text="Sobre"
-              TextColor="White"
+              TextColor="Gold"
               Margin="20"
               FontSize="40"
-              FontFamily="Papyrus"
+              FontFamily="Cardinal"
               HorizontalOptions="Center"
               HorizontalTextAlignment="Center"
               Grid.Row="0"/>
@@ -133,7 +133,7 @@
         <Label Text="Jogo criado Alifer e Arthur Matheus do 3-A"
                CharacterSpacing="1"
                LineHeight="1.5"
-               TextColor="White"
+               TextColor="Gold"
                HorizontalOptions="Center"
                HorizontalTextAlignment="Center"
                VerticalOptions="Center"
@@ -146,10 +146,10 @@
                 HeightRequest="50"
                 CornerRadius="25"
                 BackgroundColor="#b2614d"
-                TextColor="White"
+                TextColor="Gold"
                 Margin="0,0,0,10"
                 FontSize="18"
-                FontFamily="CachetStdBold"
+                FontFamily="Cardinal"
                 Grid.Row="2"/>
       </Grid>
     </Frame>

@@ -51,6 +51,55 @@ public partial class GamePage : ContentPage
       TemResposta=false,
       vcmorreu=true
     });
+     historia.Add(new HistoriaStep()
+    {
+      Id = 3,
+      Texto = "Sr capivaldo te recebe em sua humilde residência, mas logo te pergunta o que aconteceu para você está perdido naquela hora da noite ele ressalta que naquelas horas era perigoso alguém estar andando sozinho por lá",
+      TemResposta=false
+    });
+    historia.Add(new HistoriaStep()
+    {
+      Id = 4,
+      Texto = "oq vc responde?",
+      TemResposta=true,
+      TextoResposta1=" você manda ele calar a boca, e pede para ficar em paz",
+      TextoResposta2="você mente pra ele e diz que está ali só caminhando",
+      TextoResposta3="explica para ele que acabou sofrendo um acidente e que tinha avistado uma casa e foi pedir ajuda",
+      IdLevelResposta1=3002,
+      IdLevelResposta2=5,
+      IdLevelResposta3=5,
+      });
+      historia.Add(new HistoriaStep()
+    {
+      Id = 5,
+      Texto = "Sr capivaldo te recebe em sua humilde residência, mas logo te pergunta o que aconteceu para você está perdido naquela hora da noite ele ressalta que naquelas horas era perigoso alguém estar andando sozinho por lá",
+      TemResposta=false
+    });
+    historia.Add(new HistoriaStep()
+    {
+      Id = 6,
+      Texto = "Após a conversa amigável que vocês tiveram, ele logo te mostra o quarto que você irá ficar.O quarto é bem aconchegante e espaçoso, no começo você acaba desconfiando pois tem mais quartos na casa e a maioria tem camas de casal, mas é nada de mais não é? Você está deitado confortavelmente pelo cansaço, você acaba dormindo profundamente. Mas Logo o seu longo descanso chega ao fim",
+      TemResposta=false
+    });
+    historia.Add(new HistoriaStep()
+    {
+      Id = 3002,
+      Texto = "você caminha por algum tempo e acaba morrendo de fome",
+      TemResposta=false,
+      vcmorreu=true
+    });
+historia.Add(new HistoriaStep()
+    {
+      Id = 7,
+      Texto = "olá pessoa desconhecida, nossos desenvolvedores estamos trabalhando em uma segunda parte da nossa querida historia caso tenha alguma ideia para complementar entre em contato conosco acesse o e-mail alifersilva@gmail.com",
+      TemResposta=true,
+      TextoResposta1="voltar",
+      TextoResposta2="voltar",
+      TextoResposta3="voltar",
+      IdLevelResposta1=0,
+      IdLevelResposta2=0,
+      IdLevelResposta3=0,
+      });
     Iniciar();
   }
   //-------------------------------------------------------------------------------------------------------------------------------
@@ -117,6 +166,12 @@ void ProximoClicked(object sender, EventArgs args)
   void Butao3(object sender, EventArgs args)
   {
     TrocaHistoriaStepAtual(HistoriaStepAtual.IdLevelResposta3);
+  }
+
+  //------------------------------------------------------------------------------------------------
+ void Tryagain(object sender, EventArgs args)
+  {
+    Iniciar();
   }
 
   //------------------------------------------------------------------------------------------------
