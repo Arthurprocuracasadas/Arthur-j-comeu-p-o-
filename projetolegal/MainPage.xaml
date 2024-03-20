@@ -71,7 +71,7 @@
           <RowDefinition Height="*"/>
           <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-        <Label Text="Preferências"
+        <Label Text="Dicas"
               TextColor="Gold"
               Margin="20"
               FontSize="40"
